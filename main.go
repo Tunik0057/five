@@ -151,7 +151,7 @@ const (
 // Swimming структура, описывающая тренировку Плавание
 type Swimming struct {
 	// добавьте необходимые поля в структуру
-	Training   Training
+	Training
 	LengthPool int // длина бассейна
 	CountPool  int // количество пересечений бассейна
 }
